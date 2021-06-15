@@ -8,16 +8,9 @@ body {
   
   /** HEADER **/
   #header-nav {
-    background-color: #272626;
+    background-color: #222;
     border-radius: 0;
     border: 0;
-  }
-  
-  #logo-img {
-    background: url('../images/restaurant-logo_large.png') no-repeat;
-    width: 150px;
-    height: 150px;
-    margin: 10px 15px 10px 0;
   }
   
   .navbar-brand {
@@ -61,6 +54,9 @@ body {
     font-size: 1.8em;
     text-align: center;
   }
+  .nav li a {
+      padding: 10px 5px;
+  }
   
   #phone {
     margin-top: 5px;
@@ -79,7 +75,7 @@ body {
   }
   
   .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #61122f;
+    border: 1px solid #ffffff;
   }
   .navbar-header button.navbar-toggle {
     clear: both;
@@ -98,22 +94,30 @@ body {
   .panel-footer div.row {
     margin-bottom: 35px;
   }
-  #hours, #address {
+  #hours {
     line-height: 2;
   }
   #hours > span, #address > span {
     font-size: 1.3em;
   }
-  #address p {
-    color: #557c3e;
-    font-size: .8em;
-    line-height: 1.8;
-  }
-  #testimonials {
-    font-style: italic;
-  }
   #testimonials p:nth-child(2) {
     margin-top: 25px;
+  }
+  #linkedin{
+    font-size: 36px;
+    color: ivory;
+  }
+  #github{
+    font-size: 36px;
+    color: ivory;
+  }
+  #email{
+    font-size: 36px;
+    color: ivory;
+  }
+  #phne{
+    font-size: 36px;
+    color: ivory;
   }
   /* END FOOTER */
   
@@ -158,6 +162,15 @@ body {
   }
   /* END HOME PAGE */
   
+  /*RESUME PAGE*/
+  #resDownload{
+      font-size: 36px;
+      color: ivory;
+      padding: 5px;
+      margin: 10px;
+  }
+  /*END RESUME PAGE*/
+
   /* MENU CATEGORIES PAGE */
   .category-tile { 
     position: relative;

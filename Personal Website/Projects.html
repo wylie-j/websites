@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Personal website</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css ">
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
@@ -15,9 +16,6 @@
         <nav id="header-nav" class="navbar navbar-default">
           <div class="container">
             <div class="navbar-header">
-              <a href="index.html" class="pull-left visible-md visible-lg">
-                <div id="logo-img" alt="Logo image"></div>
-              </a>
     
               <div class="navbar-brand">
                 <a href="index.html"><h1>Jake Wylie</h1></a>
@@ -33,37 +31,81 @@
             
             <div id="collapsable-nav" class="collapse navbar-collapse">
                <ul id="nav-list" class="nav navbar-nav navbar-right">
-                <li id="navHomeButton" class="visible-xs active">
+                <li id="navHomeButton" >
                   <a href="index.html">
-                    <span class="glyphicon glyphicon-home"></span> Home</a>
-                </li>
-                <li id="navMenuButton">
-                  <a href="index.html" >
-                    <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
+                    <span class="glyphicon glyphicon-home"></span><br class="hidden-xs">Home 
+                  </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="Projects.html">
                     <span class="glyphicon glyphicon-blackboard"></span><br class="hidden-xs"> Projects</a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="Resume.html">
                     <span class="glyphicon glyphicon-list-alt"></span><br class="hidden-xs"> Resume</a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="about.html">
                     <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
                 </li>
                 <!--<li>
                   <a href="#">
                     <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+                </li>
+                <li id="phone" class="hidden-xs">
+                  <a href="tel:403-894-0208">
+                    <span>403-894-0208</span></a>
+                    <a href="idk"> <span>jake.d.wylie@gmail.com</span></a>
                 </li>-->
               </ul><!-- #nav-list -->
             </div><!-- .collapse .navbar-collapse -->
           </div><!-- .container -->
         </nav><!-- #header-nav -->
       </header>
-
-      <div>yo</div>
     
+      <!--
+      <div id="call-btn" class="visible-xs">
+        <a class="btn" href="tel:403-894-0208">
+        <span class="glyphicon glyphicon-earphone"></span>
+        403-894-0208
+        </a>
+        <div>jake.d.wylie@gmail.com</div>
+      </div>-->
+    
+      <div id="main-content" class="container">
+          <h1>Here are some things I've done.</h1>
+          <section>Building a robot</section>
+          <section>Building another robot</section>
+          <section>Issue tracking system</section>
+          <section>Roomate website</section>
+          <section></section>
+      </div>
+    
+      <footer class="panel-footer">
+        <div class="container">
+          <div class="row">
+            <section id="contact" class="col-sm-6">
+              <span>Contact me:</span><br>
+              <a href = "tel: 403-894-0208"  id="phne">
+                <i class="fa fa-phone"></i>
+              </a>
+              <a href = "mailto: jake.d.wylie@gmail.com"  id="email">
+                <i class="fa fa-envelope"> </i>
+              </a>
+              <a href="https://www.linkedin.com/in/jake-wylie-862735211/" id="linkedin">
+                <i class="fa fa-linkedin-square"></i>
+              </a>
+              <a href="https://github.com/wylie-j" id="github">
+                <i class="fa fa-github"></i>
+              </a>
+            </section>
+            <section id="address" class="col-sm-6">
+            </section>
+          </div>
+        </div>
+      </footer>
+
+      <script src="js/jquery-2.1.4.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
